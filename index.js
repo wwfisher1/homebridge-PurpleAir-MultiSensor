@@ -344,3 +344,4 @@ PurpleAirAccessory.prototype = {
                 return [ informationService, this.airQuality, this.temperature, this.humidity ];
         }
 };
+
