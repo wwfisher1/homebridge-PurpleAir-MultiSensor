@@ -5,6 +5,7 @@
 
 Created on Napili-Kai in dev branch. Will push to remote main branch next.
 Sarah
+Bill -  06212021
 
 Project is based on [homebridge-weather](https://github.com/werthdavid/homebridge-weather), [homebridge-arinow](https://github.com/ToddGreenfield/homebridge-airnow), [SANdood's homebridge-purpleair](https://github.com/SANdood/homebridge-purpleair), [aanon4's homebridge-purpleair](https://github.com/aanon4/homebridge-purpleair), and [DAKarp's homebridge-purpleair-multisensor](https://github.com/DAKarp/homebridge-purpleair-multisensor).
 
