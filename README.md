@@ -75,7 +75,8 @@ To find your specific "PURPLE_AIR_STATION_ID" (a string):
 [local link](markdown file)
 --->
 
-[external link](cnn.com)
-[internal link](Editing_homebridge_modules)
+[external link](http://cnn.com)
+and 
+[internal link](Editing_homebridge_modules.md)
 
 
