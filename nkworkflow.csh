@@ -1,5 +1,6 @@
 #!/bin/csh
 
+clear
 cd /Users/Bill/Development/node-modules/homebridge-PurpleAir-MultiSensor
 
 git checkout dev
