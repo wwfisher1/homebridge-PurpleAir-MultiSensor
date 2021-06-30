@@ -31,9 +31,9 @@ echo "branch -av"
 git branch -av
 echo " "
 
+echo "git push origin dev"
 git push origin dev
 echo " "
-echo "git push origin dev"
 
 echo "git branch -av"
 git branch -av
@@ -47,6 +47,6 @@ echo "git merge dev"
 git merge dev
 echo " "
 
-git branch -av
 echo "git branch -av"
+git branch -av
 
