@@ -19,7 +19,6 @@ echo " "
 
 #vim README.md
 
-git
 echo "git add . "
 git status
 git add .
