@@ -1,19 +1,16 @@
 [H[2J 
 git checkout dev
-A	1
 M	README.md
-M	nkworkflow.csh
 M	nkworkflow.out
-A	test.csh
 Your branch is up to date with 'origin/dev'.
  
 git branch -av
-* dev                 eec81c0 timestamp 20210629 08:39
+* dev                 a0bece9 timestamp 20210630 09:54
   main                eec81c0 [ahead 7] timestamp 20210629 08:39
   remotes/main/dev    b0317cc testing links in README
   remotes/main/main   86dc2de timestamp 20210626 18:29
   remotes/main/prod   1c933e8 timestamp 20210627 18:05
-  remotes/origin/dev  eec81c0 timestamp 20210629 08:39
+  remotes/origin/dev  a0bece9 timestamp 20210630 09:54
   remotes/origin/main 86dc2de timestamp 20210626 18:29
   remotes/origin/prod 1c933e8 timestamp 20210627 18:05
  
