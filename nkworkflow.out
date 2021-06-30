@@ -1,95 +1,20 @@
+[H[2J 
+git checkout dev
+A	1
+M	README.md
+M	nkworkflow.csh
+M	nkworkflow.out
+A	test.csh
 Your branch is up to date with 'origin/dev'.
-* dev                 ed9370a timestamp 20210629 08:31
-  main                ed9370a [ahead 6] timestamp 20210629 08:31
+ 
+git branch -av
+* dev                 eec81c0 timestamp 20210629 08:39
+  main                eec81c0 [ahead 7] timestamp 20210629 08:39
   remotes/main/dev    b0317cc testing links in README
   remotes/main/main   86dc2de timestamp 20210626 18:29
   remotes/main/prod   1c933e8 timestamp 20210627 18:05
-  remotes/origin/dev  ed9370a timestamp 20210629 08:31
+  remotes/origin/dev  eec81c0 timestamp 20210629 08:39
   remotes/origin/main 86dc2de timestamp 20210626 18:29
   remotes/origin/prod 1c933e8 timestamp 20210627 18:05
-[?1049h[>4;2m[?1h=[?2004h[1;28r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[28;1H"README.md" 83L, 4159B[1;1H# homebridge-purpleair-multisensor
-
-timestamp 20210629 08:31
-
-
-[![NPM Version](https://img.shields.io/npm/v/homebridge-airly.svg)](https://www.npmjs.com/package/homebridge-airly)
-
-**Homebridge plugin that is showing information about air quality from PurpleAir API.**
-
-Project is based on [homebridge-weather](https://github.com/werthdavid/homebridge-weather), [homebridge-arinow](https://github.coo[11;1Hm/ToddGreenfield/homebridge-airnow), [SANdood's homebridge-purpleair](https://github.com/SANdood/homebridge-purpleair), [aanon4'ss[12;1H homebridge-purpleair](https://github.com/aanon4/homebridge-purpleair), and [DAKarp's homebridge-purpleair-multisensor](https://gg[13;1Hithub.com/DAKarp/homebridge-purpleair-multisensor).
-
-This plugin supports Air Quality, PM2.5, Temperature and Humidity.
-
-## Installation
-1. Install Homebridge using: `(sudo) npm install -g --unsafe-perm homebridge`.
-2. Install this plugin via [homebridge-config-ui-x](https://www.npmjs.com/package/homebridge-config-ui-x)
-
-- or -
-
-1. Install Homebridge using: `(sudo) npm install -g --unsafe-perm homebridge`.
-2. Install this plugin manually:
-    1. find the directory that `homebridge` was installed in (e.g. `/usr/local/lib/node-modules`)
-    2. create `homebridge-purpleair` in that directory
-    3. copy `index.js` and `package.js` into this directory[1;1H[?25h
-[?25l[28;1HType  :qa  and press <Enter> to exit Vim[2;1H[?25h[?25l[?25h[1;1H[?25l[28;1H[1m-- INSERT --[m[28;13H[K[1;1H[?25h[?25li# homebridge-purpleair-multisensori[?25h[?25lk# homebridge-purpleair-multisensorik[?25h[?25l:# homebridge-purpleair-multisensorik:[?25h[?25lq# homebridge-purpleair-multisensorik:q[?25h[?25l!# homebridge-purpleair-multisensorik:q![?25h[?25l[2;27r[2;1H[L[1;28r[1;6H[K[2;1H# homebridge-purpleair-multisensor[?25h[?25l:# homebridge-purpleair-multisensor:[?25h[?25lq# homebridge-purpleair-multisensor:q[?25h[?25l!# homebridge-purpleair-multisensor:q![?25h[?25l[3;27r[3;1H[L[1;28r[2;4H[K[3;1H# homebridge-purpleair-multisensor[?25h[?25l[28;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[3;1H[?25h[?25l[28;4HINSERTe --^[m[28;13H[K[28;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[3;1H[?25h[?25l[28;4HINSERTe --^[m[28;13H[K[28;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[3;1H[?25h[?25l[28;4HINSERTe --^[m[28;13H[K[28;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[3;1H[?25h[?25l[28;4HINSERTe --^[m[28;13H[K[3;1H[34m^Z[m# homebridge-purpleair-multisensor[3;3H[?25h[?25l[34m^Z[m# homebridge-purpleair-multisensor[3;5H[?25h[?25l[28;1H[K[3;3H[?25h[?25l[28;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[3;3H[?25h[?25l[?25h[?25l[?25h[?25l[1C[47mZ[m[28;1H[1m-- VISUAL BLOCK --[m[28;19H[K[3;3H[?25h[?25l[1C[34mZ[m[28;1H[K[3;3H[?25h
-
-
-[?25l
-
-[![106m[[11C][m[![?25h[?25l[28;1H[1m-- INSERT --[m[8;3HNPM Version](https://img.shields.io/npm/v/homebridge-airly.svg)](https://www.npmjs.com/package/homebridge-airly)[8;115H[K[8;3H[?25h[?25liNPM Version](https://img.shields.io/npm/v/homebridge-airly.svg)](https://www.npmjs.com/package/homebridge-airly)[!i[?25h[?25ltNPM Version](https://img.shields.io/npm/v/homebridge-airly.svg)](https://www.npmjs.com/package/homebridge-airly)[!it[?25h[?25l[9;27r[9;1H[L[1;28r[8;5H[K[9;1HNPM Version](https://img.shields.io/npm/v/homebridge-airly.svg)](https://www.npmjs.com/package/homebridge-airly)[?25h[27m[29m[m[H[2J[?25l[1;1Hik:q!
-:q!
-[34m^Z^Z[m# homebridge-purpleair-multisensor
-
-timestamp 20210629 08:31
-
-
-[!it
-NPM Version](https://img.shields.io/npm/v/homebridge-airly.svg)](https://www.npmjs.com/package/homebridge-airly)
-
-**Homebridge plugin that is showing information about air quality from PurpleAir API.**
-
-Project is based on [homebridge-weather](https://github.com/werthdavid/homebridge-weather), [homebridge-arinow](https://github.coo[14;1Hm/ToddGreenfield/homebridge-airnow), [SANdood's homebridge-purpleair](https://github.com/SANdood/homebridge-purpleair), [aanon4'ss[15;1H homebridge-purpleair](https://github.com/aanon4/homebridge-purpleair), and [DAKarp's homebridge-purpleair-multisensor](https://gg[16;1Hithub.com/DAKarp/homebridge-purpleair-multisensor).
-
-This plugin supports Air Quality, PM2.5, Temperature and Humidity.
-
-## Installation
-1. Install Homebridge using: `(sudo) npm install -g --unsafe-perm homebridge`.
-2. Install this plugin via [homebridge-config-ui-x](https://www.npmjs.com/package/homebridge-config-ui-x)
-
-- or -
-
-1. Install Homebridge using: `(sudo) npm install -g --unsafe-perm homebridge`.
-2. Install this plugin manually:
-    1. find the directory that `homebridge` was installed in (e.g. `/usr/local/lib/node-modules`)
-[1m-- INSERT --[9;1H[?25h[27m[29m[m[H[2J[?25l[1;1Hik:q!
-:q!
-[34m^Z^Z[m# homebridge-purpleair-multisensor
-
-timestamp 20210629 08:31
-
-
-[!it
-NPM Version](https://img.shields.io/npm/v/homebridge-airly.svg)](https://www.npmjs.com/package/homebridge-airly)
-
-**Homebridge plugin that is showing information about air quality from PurpleAir API.**
-
-Project is based on [homebridge-weather](https://github.com/werthdavid/homebridge-weather), [homebridge-arinow](https://github.coo[14;1Hm/ToddGreenfield/homebridge-airnow), [SANdood's homebridge-purpleair](https://github.com/SANdood/homebridge-purpleair), [aanon4'ss[15;1H homebridge-purpleair](https://github.com/aanon4/homebridge-purpleair), and [DAKarp's homebridge-purpleair-multisensor](https://gg[16;1Hithub.com/DAKarp/homebridge-purpleair-multisensor).
-
-This plugin supports Air Quality, PM2.5, Temperature and Humidity.
-
-## Installation
-1. Install Homebridge using: `(sudo) npm install -g --unsafe-perm homebridge`.
-2. Install this plugin via [homebridge-config-ui-x](https://www.npmjs.com/package/homebridge-config-ui-x)
-
-- or -
-
-1. Install Homebridge using: `(sudo) npm install -g --unsafe-perm homebridge`.
-2. Install this plugin manually:
-[1m-- INSERT --[9;1H[?25h[28;1H[?2004l[>4;m[m[?2004l[?1l>[>4;m[?1049lVim: Error reading input, exiting...
-Vim: preserving files...
-Saving session...Vim: Finished.
-[28;1H[23;2t[23;1t[J
-...copying shared history...
-...saving history...truncating history files...
-...completed.
-Deleting expired sessions...none found.
+ 
+git add . 
