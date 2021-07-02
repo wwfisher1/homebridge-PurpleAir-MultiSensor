@@ -69,3 +69,138 @@ Changes not staged for commit:
 	modified:   nkworkflow.out
 
 no changes added to commit (use "git add" and/or "git commit -a")
+ 
+git branch -av
+On branch dev
+Your branch is up to date with 'origin/dev'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   README.md
+	modified:   nkworkflow.csh
+	modified:   nkworkflow.out
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nkworkflow.out
+
+* dev                 3ed3bc1 timestamp 20210630 15:51
+  main                eec81c0 [ahead 7] timestamp 20210629 08:39
+  remotes/main/dev    b0317cc testing links in README
+  remotes/main/main   86dc2de timestamp 20210626 18:29
+  remotes/main/prod   1c933e8 timestamp 20210627 18:05
+  remotes/origin/dev  3ed3bc1 timestamp 20210630 15:51
+  remotes/origin/main 86dc2de timestamp 20210626 18:29
+  remotes/origin/prod 1c933e8 timestamp 20210627 18:05
+ 
+git commit -m "timestamp 20210630 16:00"
+On branch dev
+Your branch is up to date with 'origin/dev'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   README.md
+	modified:   nkworkflow.csh
+	modified:   nkworkflow.out
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nkworkflow.out
+
+[dev c650ca3] timestamp 20210630 16:00
+ 3 files changed, 6 insertions(+), 52 deletions(-)
+ 
+git branch -av
+On branch dev
+Your branch is ahead of 'origin/dev' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nkworkflow.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+* dev                 c650ca3 [ahead 1] timestamp 20210630 16:00
+  main                eec81c0 [ahead 7] timestamp 20210629 08:39
+  remotes/main/dev    b0317cc testing links in README
+  remotes/main/main   86dc2de timestamp 20210626 18:29
+  remotes/main/prod   1c933e8 timestamp 20210627 18:05
+  remotes/origin/dev  3ed3bc1 timestamp 20210630 15:51
+  remotes/origin/main 86dc2de timestamp 20210626 18:29
+  remotes/origin/prod 1c933e8 timestamp 20210627 18:05
+ 
+git push origin dev
+On branch dev
+Your branch is ahead of 'origin/dev' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nkworkflow.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ 
+git branch -av
+On branch dev
+Your branch is up to date with 'origin/dev'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nkworkflow.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+* dev                 c650ca3 timestamp 20210630 16:00
+  main                eec81c0 [ahead 7] timestamp 20210629 08:39
+  remotes/main/dev    b0317cc testing links in README
+  remotes/main/main   86dc2de timestamp 20210626 18:29
+  remotes/main/prod   1c933e8 timestamp 20210627 18:05
+  remotes/origin/dev  c650ca3 timestamp 20210630 16:00
+  remotes/origin/main 86dc2de timestamp 20210626 18:29
+  remotes/origin/prod 1c933e8 timestamp 20210627 18:05
+ 
+git checkout main
+On branch dev
+Your branch is up to date with 'origin/dev'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nkworkflow.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ 
+git merge dev
+On branch dev
+Your branch is up to date with 'origin/dev'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nkworkflow.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Already up to date.
+ 
+git branch -av
+On branch dev
+Your branch is up to date with 'origin/dev'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   nkworkflow.out
+
+no changes added to commit (use "git add" and/or "git commit -a")
+* dev                 c650ca3 timestamp 20210630 16:00
+  main                eec81c0 [ahead 7] timestamp 20210629 08:39
+  remotes/main/dev    b0317cc testing links in README
+  remotes/main/main   86dc2de timestamp 20210626 18:29
+  remotes/main/prod   1c933e8 timestamp 20210627 18:05
+  remotes/origin/dev  c650ca3 timestamp 20210630 16:00
+  remotes/origin/main 86dc2de timestamp 20210626 18:29
+  remotes/origin/prod 1c933e8 timestamp 20210627 18:05

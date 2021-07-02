@@ -1,6 +1,6 @@
 # homebridge-purpleair-multisensor
 
-timestamp 20210630 16:00
+timestamp 20210701 17:06
 
 [![NPM Version](https://img.shields.io/npm/v/homebridge-airly.svg)](https://www.npmjs.com/package/homebridge-airly)
 
