@@ -52,6 +52,7 @@ function PurpleAirAccessory(log, config) {
         this.includePM10 = config.includePM10 || false;
 
         this.log.info("PurpleAir is working");
+        this.log.info("statsKey is ", this.statsKey
 
   this.localIP = config.localIP;
   this.adjustTempF = config.adjustTempF;
