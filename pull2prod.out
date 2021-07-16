@@ -1,0 +1,159 @@
+Wed 30 Jun 18:02:02 PDT 2021
+[H[2J[3JOn branch prod
+Your branch is up to date with 'origin/prod'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	pull2prod.csh
+	pull2prod.out
+
+nothing added to commit but untracked files present (use "git add" to track)
+  main                5338597 [gone] again with the index.js edit
+* prod                c650ca3 timestamp 20210630 16:00
+  remotes/origin/dev  c650ca3 timestamp 20210630 16:00
+  remotes/origin/main e54f156 06232021 timestamp in README
+  remotes/origin/prod c650ca3 timestamp 20210630 16:00
+ 
+git checkout prod
+On branch prod
+Your branch is up to date with 'origin/prod'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	pull2prod.csh
+	pull2prod.out
+
+nothing added to commit but untracked files present (use "git add" to track)
+Your branch is up to date with 'origin/prod'.
+ 
+git branch -av
+On branch prod
+Your branch is up to date with 'origin/prod'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	pull2prod.csh
+	pull2prod.out
+
+nothing added to commit but untracked files present (use "git add" to track)
+  main                5338597 [gone] again with the index.js edit
+* prod                c650ca3 timestamp 20210630 16:00
+  remotes/origin/dev  c650ca3 timestamp 20210630 16:00
+  remotes/origin/main e54f156 06232021 timestamp in README
+  remotes/origin/prod c650ca3 timestamp 20210630 16:00
+ 
+git push
+On branch prod
+Your branch is up to date with 'origin/prod'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	pull2prod.csh
+	pull2prod.out
+
+nothing added to commit but untracked files present (use "git add" to track)
+ 
+git branch -av
+On branch prod
+Your branch is up to date with 'origin/prod'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	pull2prod.csh
+	pull2prod.out
+
+nothing added to commit but untracked files present (use "git add" to track)
+  main                5338597 [gone] again with the index.js edit
+* prod                c650ca3 timestamp 20210630 16:00
+  remotes/origin/dev  c650ca3 timestamp 20210630 16:00
+  remotes/origin/main e54f156 06232021 timestamp in README
+  remotes/origin/prod c650ca3 timestamp 20210630 16:00
+ 
+README.md timestamp 20210630 16:00
+ 
+git branch -av
+On branch prod
+Your branch is up to date with 'origin/prod'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	pull2prod.csh
+	pull2prod.out
+
+nothing added to commit but untracked files present (use "git add" to track)
+  main                5338597 [gone] again with the index.js edit
+* prod                c650ca3 timestamp 20210630 16:00
+  remotes/origin/dev  c650ca3 timestamp 20210630 16:00
+  remotes/origin/main e54f156 06232021 timestamp in README
+  remotes/origin/prod c650ca3 timestamp 20210630 16:00
+ 
+git pull origin dev
+On branch prod
+Your branch is up to date with 'origin/prod'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	pull2prod.csh
+	pull2prod.out
+
+nothing added to commit but untracked files present (use "git add" to track)
+Already up to date.
+ 
+git branch -av
+On branch prod
+Your branch is up to date with 'origin/prod'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	pull2prod.csh
+	pull2prod.out
+
+nothing added to commit but untracked files present (use "git add" to track)
+  main                5338597 [gone] again with the index.js edit
+* prod                c650ca3 timestamp 20210630 16:00
+  remotes/origin/dev  c650ca3 timestamp 20210630 16:00
+  remotes/origin/main e54f156 06232021 timestamp in README
+  remotes/origin/prod c650ca3 timestamp 20210630 16:00
+ 
+git push
+On branch prod
+Your branch is up to date with 'origin/prod'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	pull2prod.csh
+	pull2prod.out
+
+nothing added to commit but untracked files present (use "git add" to track)
+  main                5338597 [gone] again with the index.js edit
+* prod                c650ca3 timestamp 20210630 16:00
+  remotes/origin/dev  c650ca3 timestamp 20210630 16:00
+  remotes/origin/main e54f156 06232021 timestamp in README
+  remotes/origin/prod c650ca3 timestamp 20210630 16:00
+ 
+git merge dev
+On branch prod
+Your branch is up to date with 'origin/prod'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	pull2prod.csh
+	pull2prod.out
+
+nothing added to commit but untracked files present (use "git add" to track)
+  main                5338597 [gone] again with the index.js edit
+* prod                c650ca3 timestamp 20210630 16:00
+  remotes/origin/dev  c650ca3 timestamp 20210630 16:00
+  remotes/origin/main e54f156 06232021 timestamp in README
+  remotes/origin/prod c650ca3 timestamp 20210630 16:00
+ 
