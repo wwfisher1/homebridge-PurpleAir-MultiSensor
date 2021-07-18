@@ -39,7 +39,7 @@ function PurpleAirAccessory(log, config) {
                         this.statsKey = config.statsKey;
                         break;
                 default:
-                        this.statsKey = 'v';
+                        this.statsKey = 'v1';
                         break;
         }
         this.lastupdate = 0;
